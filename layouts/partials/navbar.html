@@ -23,10 +23,10 @@
                     {{ if .HasChildren }}
       
                   <li class="sub-menu{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}">
-                  <a href="javascript:;" class="">
+                  <a href="javascript:;" class="parent-drop">
                       {{ .Pre }}
                       <span>{{ .Name }}</span>
-                      <span class="menu-arrow arrow_carrot-right"></span>
+                      <i class="fas fa-angle-down dropdown-i"></i>
                   </a>
                   <ul class="sub">
                       {{ range .Children }}

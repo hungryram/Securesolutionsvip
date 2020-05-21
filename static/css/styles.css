@@ -2,13 +2,13 @@ body {
     overflow: hidden;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Josefin Sans', sans-serif!important;
+h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title,
+h6.title {
+    font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -27,81 +27,168 @@ input.input {
 
 /* HERO */
 
-div.hero-body h1,
+div.hero-body h1.title {
+    font-size: 3em;
+}
+
+div.hero-body p {
+    font-size: 2rem;
+}
+
+div.hero-body h1.title,
 div.hero-body p {
     color: #fff;
     line-height: 2;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 /* START DROPDOWN */
 
+/* NAV */
 @media screen and (max-width: 1087px){
 
-
-
+    span.navbar-burger {
+        background: black;
+        transition: all .2s ease;
+        margin-top: 10px;
+    }
+    
     .navbar-menu.is-active {
         display: block;
-        transition: all .2s ease;
+        transition: all .3s ease;
         position: absolute;
         right: 0;
         top: -20px;
-        height: 100vh;
+        height: 105vh;
     }
 
     .navbar-burger {
         z-index: 1000;
-        transition: all .2s ease;
     }
     
-    .navbar-menu {
-        display: block!important;
+    div.navbar-menu {
+        display: block;
         position: absolute;
-        right: -300px;
-        transition: all .2s ease;
+        right: -1000px;
+        transition: all .3s ease;
         padding: 40px;
-        height: 100vh;
+        height: 105vh;
         top: -20px;
-
     }
 
+    .head-nav li a.nav-item,
+    .head-nav a.parent-drop {
+        color: #000!important;
+    }
 
-
-    div#navbarMenuHeroC ul {
-        padding-top: 50px;
+    div#navbarMenuHeroC ul:first-child {
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
 
     div#navbarMenuHeroC {
-        padding: 40px;
+        padding: 40px 60px 0 60px;
+        position: fixed;
+        overflow-y: auto;
     }
 
     ul.head-nav li {
         padding: 10px;
+        color: black;
     }
 
-    ul.head-nav li a {
-        color: #000;
+    .sub.sub-active-menu {
+        max-height: 600px;
+        transition: max-height .3s ease;
+        background: #fff;
+        /* padding: 10px;
+        margin-top: 15px; */
+    }
+    
+    .sub {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .2s ease;
     }
 }
 
 
-@media screen and (min-width:1088px) {
+
+@media screen and (min-width:1087px) {
     .head-nav li {
         display: inline-block;
-        padding: 0 10px;
+        padding: 0 20px;
     }
-    
-    .head-nav li a {
-        color: #fff;
+
+    ul.sub {
+        position: absolute;
+        display: none;
     }
+
+    .sub-menu:hover ul.sub {
+        display: block;
+        background: #fff;
+        padding: 10px 0;
+        margin-top: 38px;
+    }
+
+    .dropdown-i {
+        transition: all .2s ease;
+        padding: 0 5px;
+    }
+
+    .sub-menu:hover .dropdown-i {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg );
+        transition: all .4s ease;
+    }
+
+    .sub li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: block;
+    }
+
+    .head-nav a.nav-item,
+    .head-nav a.parent-drop {
+        padding: 40px 0;
+        color: white;
+    }
+}
+
+/* ALL SCREEN SIZE MENU */
+header.navbar {
+    padding: 10px 0;
 }
 
 a.navbar-item img {
-    max-height: 3rem;
+    max-height: 4rem;
 }
 
-div.navbar-brand {
-    align-items: center;
+.navbar-end {
+    align-items: center!important;
+}
+
+
+
+.sub-menu li a,
+a.parent-drop {
+    color: black;
+}
+
+
+.sub-menu:hover .sub-active-menu {
+    max-height: 600px;
+    transition: max-height .3s ease;
+}
+
+.navbar-brand h1 {
+    font-size: 1.3em;
+    color: white;
 }
 
 
@@ -113,6 +200,10 @@ div.navbar-brand {
 
 .navbar>.container {
     align-items: center!important;
+}
+
+span.navbar-burger {
+    color: #f1f1f1;
 }
 
 
