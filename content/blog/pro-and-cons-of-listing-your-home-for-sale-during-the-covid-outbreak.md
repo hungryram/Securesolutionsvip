@@ -1,6 +1,6 @@
 +++
 blog_date_published = ""
-featured_image = ""
+featured_image = "/uploads/kichen.jpg"
 title = "Pro and Cons of Listing Your Home For Sale During the COVID Outbreak"
 [search_engine_optimization]
 meta_description = "Springtime is the most popular time for homeowners to list their homes for sale. However, given the health crisis (and financial crisis for many), you may be wondering if it's still a good idea to sell your home this spring. What are the pros and possible pitfalls of selling your home during the COVID outbreak?"
