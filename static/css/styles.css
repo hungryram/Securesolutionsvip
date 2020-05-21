@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -15,7 +19,11 @@ p,
 a,
 li {
     font-family: 'Quicksand', sans-serif;
- }
+}
+
+input.input {
+    border-radius: 0;
+}
 
 /* HERO */
 
@@ -157,7 +165,7 @@ div.message-header {
 #icon-cta i {
     font-size: 2rem;
     padding-bottom: 20px;
-    color: #444C5C;
+    color: #bea233;
 }
 
 #icon-cta p {
@@ -193,4 +201,14 @@ div.bottom-footer {
 
 .bottom-footer a {
     color: #fff;
+}
+
+/* CONTACT PAGE */
+
+.contact-content i {
+    margin-right: 10px;
+}
+
+.contact-content ul li {
+    margin: 15px 0;
 }
