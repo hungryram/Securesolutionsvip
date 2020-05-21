@@ -8,9 +8,15 @@ fields:
     required: false
   label: Title
 - name: search_engine_optimization
-  type: include
+  type: field_group
   config: {}
-  template: seo
+  fields:
+  - name: seo
+    type: include
+    config: {}
+    template: seo
+    label: SEO
   label: Search Engine Optimization
+  description: Add meta title and description for Search Engines to find your page.
 pages:
 - content/about.md
