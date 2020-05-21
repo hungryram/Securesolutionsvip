@@ -20,3 +20,4 @@ fields:
   description: Add meta title and description for Search Engines to find your page.
 pages:
 - content/about.md
+- content/faq.md
