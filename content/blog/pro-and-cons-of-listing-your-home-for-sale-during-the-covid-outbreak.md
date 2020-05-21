@@ -1,5 +1,5 @@
 +++
-blog_date_published = ""
+blog_date_published = "05/20/2020"
 featured_image = "/uploads/kichen.jpg"
 title = "Pro and Cons of Listing Your Home For Sale During the COVID Outbreak"
 [search_engine_optimization]
