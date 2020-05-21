@@ -22,10 +22,15 @@ fields:
   config:
     maxSize: 64
   label: Featured Image
-- name: search_engine_optimization
-  type: include
+- name: search_engine_optimization3
+  type: field_group
   config: {}
-  template: seo
+  fields:
+  - name: seo
+    type: include
+    config: {}
+    template: seo
+    label: SEO
   label: Search Engine Optimization
 pages:
 - content/blog/what-is-lorem-ipsum.md
