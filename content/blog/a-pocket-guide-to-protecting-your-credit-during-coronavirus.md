@@ -1,5 +1,5 @@
 +++
-blog_date_published = ""
+blog_date_published = "05/13/2020"
 featured_image = "/uploads/featured3.jpg"
 title = "A Pocket Guide to Protecting Your Credit During Coronavirus"
 [search_engine_optimization]
