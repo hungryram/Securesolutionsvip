@@ -1,6 +1,6 @@
 +++
 blog_date_published = ""
-featured_image = ""
+featured_image = "/uploads/featured3.jpg"
 title = "A Pocket Guide to Protecting Your Credit During Coronavirus"
 [search_engine_optimization]
 meta_description = "Your credit plays a key role in financial opportunities, today and in the future. Understandably, the current pandemic environment is making it more challenging. But still, there are actions you can take to protect your credit. "
