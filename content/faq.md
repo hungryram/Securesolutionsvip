@@ -1,5 +1,8 @@
 +++
 title = "FAQ"
+[menu.main]
+parent = "Resources"
+weight = 1
 [search_engine_optimization]
 meta_description = ""
 meta_title = ""
