@@ -27,3 +27,5 @@ fields:
   config: {}
   template: seo
   label: Search Engine Optimization
+pages:
+- content/blog/what-is-lorem-ipsum.md
