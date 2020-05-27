@@ -4,8 +4,8 @@ title = "FAQ"
 parent = "Resources"
 weight = 1
 [search_engine_optimization]
-meta_description = ""
-meta_title = ""
+meta_description = "An FHA reverse mortgage is a government-insured loan for senior borrowers age 62 and older. This financial tool allows the borrower to access a portion of home equity and convert it into cash to utilize proceeds for however he/she sees fit."
+meta_title = "American Apple Mortgage FAQ"
 
 +++
 ## What is a Reverse Mortgage Loan?
