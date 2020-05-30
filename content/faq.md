@@ -12,11 +12,11 @@ meta_title = "American Apple Mortgage FAQ"
 
 A reverse mortgage loan helps provide greater financial security to over a million seniors in the U.S. Find out why today’s savvy financial service professionals utilize reverse mortgages to help retirement-aged clients improve their financial futures. To learn more about reverse mortgages, read through the following commonly asked questions–and consider adding this secure and viable financial planning tool to your portfolio of products.
 
-### What is a reverse mortgage?
+### Is a reverse mortgage an FHA loan?
 
-An FHA reverse mortgage is a government-insured loan for senior borrowers age 62 and older. This financial tool allows the borrower to access a portion of home equity and convert it into cash to utilize proceeds for however he/she sees fit. Common uses include paying for medical bills or other debt, home repair and improvements, traveling and supplementing your client’s retirement portfolio, among others.
+Yes. A FHA reverse mortgage is a government-insured loan for senior borrowers age 62 and older. This financial tool allows the borrower to access a portion of home equity and convert it into cash to utilize proceeds for however he/she sees fit. Common uses include paying for medical bills or other debt, home repair and improvements, traveling and supplementing your client’s retirement portfolio, among others.
 
-### What are my client’s payment options with a reverse mortgage?
+### What are my payment options with a reverse mortgage?
 
 The length of the reverse mortgage loan is partly determined by the disbursement option chosen, and funds can be disbursed in a number of ways. Proceeds may be provided through:
 
@@ -41,15 +41,15 @@ The choice is ultimately your client’s, but your American Apple Mortgage partn
 * With a reverse mortgage loan, the borrower will not lose Social Security or Medicare benefits.
 * Reverse mortgages afford borrowers greater financial freedom and control, providing them the dignity and security they deserve.
 
-### How does my client qualify for a reverse mortgage loan?
+### How do I qualify for a reverse mortgage loan?
 
 To qualify for a reverse mortgage, borrowers must be at least 62 years of age, own their home and occupy it as their primary residence (among other requirements). If they have equity in their homes and are looking for additional income, a reverse mortgage can provide the funding needed to allow them to stay in their homes.
 
 ### Isn’t a reverse mortgage a loan of last resort?
 
-This is a popular misconception. When used wisely, a reverse mortgage can be a very powerful, viable and strategic financial tool. There is no better product more readily available to the senior population in terms of supplementing retirement, balancing a portfolio and managing retirement risks. However, the reverse mortgage should be evaluated based on the borrower’s particular needs and financial background. Your AAG reverse mortgage partner can help guide you through your client’s specific situation.
+This is a popular misconception. When used wisely, a reverse mortgage can be a very powerful, viable and strategic financial tool. There is no better product more readily available to the senior population in terms of supplementing retirement, balancing a portfolio and managing retirement risks. However, the reverse mortgage should be evaluated based on the borrower’s particular needs and financial background. Your AAM reverse mortgage partner can help guide you through your client’s specific situation.
 
-### Why should I partner with AAG?
+### Why should I partner with American Apple Mortgage?
 
 We at American Apple Mortgage pride ourselves on our thoroughness and the personal relationships we build with our partners and borrowers. As the established leader in the industry, our proven and unique sales and marketing processes and comprehensive training program position us, and our partners, for sustained growth and success. The foundation of who we are and how we behave is based in three core values that our partners have come to expect when working with us: caring, driven and ethical. Caring for our partners and customers. Driven to provide superior customer service. Ethical in how we conduct our business every day. These core values define who we are and how we behave.
 
