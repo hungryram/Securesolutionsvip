@@ -5,8 +5,8 @@
         <div class="columns">
             <div class="column">
                 <div class="contact-content">
-                    <h1 class="title is-3" style="text-transform: uppercase;">Realize Your Dream of Home Ownership</h2>
-                    <p class="content">Whether you're buying your first home or your dream home, we have a mortgage solution for you. Get in touch today</p>
+                    <h1 class="title is-3" style="text-transform: uppercase;">We want to help you Achieve Your Goal!</h2>
+                    <p class="content">Whether you are refinancing or purchasing a replacement home, we have a mortgage solution for you. Get in Touch Today.</p>
                     {{ $profilecontact := .Site.Data.profile.primary_account }}
                     {{ $profileaddress := .Site.Data.profile.address }}
                     <ul>
@@ -17,31 +17,32 @@
                 </div>
             </div>
             <div class="column">
-                <form name="contact" method="POST" data-netlify="true">
+                <form name="contactform" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                  <input name="bot-field" typ="hidden">
                     <div class="field">
                         <label class="label">Name</label>
                         <div class="control">
-                          <input class="input" type="text" placeholder="First Name">
+                          <input class="input" type="text" placeholder="First Name" name="first name">
                         </div>
                       </div>
 
                       <div class="field">
                         <div class="control">
-                          <input class="input" type="text" placeholder="Last Name">
+                          <input class="input" type="text" placeholder="Last Name" name="last name">
                         </div>
                       </div>
 
                       <div class="field">
                         <label class="label">Phone</label>
                         <div class="control">
-                          <input class="input" type="email" value="">
+                          <input class="input" type="email" name="phone number">
                         </div>
                       </div>
                       
                       <div class="field">
                         <label class="label">Email</label>
                         <div class="control">
-                          <input class="input" type="email">
+                          <input class="input" type="email" name="email">
                         </div>
                       </div>
                     
@@ -49,7 +50,7 @@
                       <div class="field">
                         <label class="label">Message</label>
                         <div class="control">
-                          <textarea class="textarea"></textarea>
+                          <textarea class="textarea" name="message"></textarea>
                         </div>
                       </div>
                       
