@@ -1,6 +1,5 @@
 +++
 blog_date_published = 2019-01-08T00:00:00Z
-draft = true
 featured_image = "/uploads/featured3.jpg"
 title = "AAM’s high-touch, high-functioning wholesale channel offers robust support"
 [search_engine_optimization]
