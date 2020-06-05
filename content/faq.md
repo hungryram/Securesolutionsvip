@@ -14,7 +14,7 @@ A reverse mortgage loan helps provide greater financial security to over a milli
 
 ### Is a reverse mortgage an FHA loan?
 
-Yes. A FHA reverse mortgage is a government-insured loan for senior borrowers age 62 and older. This financial tool allows the borrower to access a portion of home equity and convert it into cash to utilize proceeds for however he/she sees fit. Common uses include paying for medical bills or other debt, home repair and improvements, traveling and supplementing your client’s retirement portfolio, among others.
+Yes. A FHA reverse mortgage is a government-insured loan for senior borrowers age 62 and older. This financial tool allows the borrower to access a portion of home equity and convert it into cash to utilize proceeds for however he/she sees fit. Common uses include paying for medical bills or other debt, home repair and improvements, traveling and supplementing your retirement portfolio, among others.
 
 ### What are my payment options with a reverse mortgage?
 
@@ -25,9 +25,9 @@ The length of the reverse mortgage loan is partly determined by the disbursement
 * Monthly payments (tenure or modified tenure plans available)
 * Combination of any of these.
 
-The choice is ultimately your client’s, but your American Apple Mortgage partner will educate you on how to guide your client through the disbursement option that is best suited for your client’s situation.
+The choice is ultimately yours, but your American Apple Mortgage partner will educate you on how to guide you through the disbursement option that is best suited for your situation.
 
-### How much money can my client get with a reverse mortgage loan?
+### How much money can I get with a reverse mortgage loan?
 
 * Borrower’s age (must be 62 years or older)
 * Appraised value of home
@@ -47,7 +47,7 @@ To qualify for a reverse mortgage, borrowers must be at least 62 years of age, o
 
 ### Isn’t a reverse mortgage a loan of last resort?
 
-This is a popular misconception. When used wisely, a reverse mortgage can be a very powerful, viable and strategic financial tool. There is no better product more readily available to the senior population in terms of supplementing retirement, balancing a portfolio and managing retirement risks. However, the reverse mortgage should be evaluated based on the borrower’s particular needs and financial background. Your AAM reverse mortgage partner can help guide you through your client’s specific situation.
+This is a popular misconception. When used wisely, a reverse mortgage can be a very powerful, viable and strategic financial tool. There is no better product more readily available to the senior population in terms of supplementing retirement, balancing a portfolio and managing retirement risks. However, the reverse mortgage should be evaluated based on the borrower’s particular needs and financial background. Your AAM reverse mortgage partner can help guide you through your specific situation.
 
 ### Why should I partner with American Apple Mortgage?
 
@@ -55,4 +55,4 @@ We at American Apple Mortgage pride ourselves on our thoroughness and the person
 
 ### How does a reverse mortgage work?
 
-With a reverse mortgage, there are no monthly mortgage payments as long as property taxes, insurance and maintenance are continued to be paid. Many seniors are resistant to the idea of selling the home they’ve lived in for years. That’s why a reverse mortgage is a convenient solution. Your client can stay in his or her home that they are comfortable living in while enjoying an additional revenue stream to cover health care costs or other expenses.
+With a reverse mortgage, there are no monthly mortgage payments as long as property taxes, insurance and maintenance are continued to be paid. Many seniors are resistant to the idea of selling the home they’ve lived in for years. That’s why a reverse mortgage is a convenient solution. You can stay in his or her home that they are comfortable living in while enjoying an additional revenue stream to cover health care costs or other expenses.
