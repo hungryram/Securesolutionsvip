@@ -8,9 +8,12 @@ meta_description = "An FHA reverse mortgage is a government-insured loan for sen
 meta_title = "American Apple Mortgage FAQ"
 
 +++
+
 ## What is a Reverse Mortgage Loan?
 
 A reverse mortgage loan helps provide greater financial security to over a million seniors in the U.S. Find out why today’s savvy financial service professionals utilize reverse mortgages to help retirement-aged clients improve their financial futures. To learn more about reverse mortgages, read through the following commonly asked questions–and consider adding this secure and viable financial planning tool to your portfolio of products.
+
+If you would like to contact AAM, please reach us at [213-380-5626](213-380-5626)
 
 ### Is a reverse mortgage an FHA loan?
 
