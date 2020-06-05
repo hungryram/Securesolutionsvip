@@ -15,36 +15,50 @@
             </div>
 
             <div class="column">
-              <form name="contact" method="POST" data-netlify="true">
-                <div class="field">
-                    <label class="label">Name</label>
-                    <div class="control">
-                      <input class="input" type="text" placeholder="Full Name">
-                    </div>
-                  </div>
-                  
+              <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                <input name="bot-field" type="hidden">
                   <div class="field">
-                    <label class="label">Email</label>
-                    <div class="control">
-                      <input class="input" type="email" placeholder="Email input" value="">
-                    </div>
-                  </div>
-                
-                  
-                  <div class="field">
-                    <label class="label">Message</label>
-                    <div class="control">
-                      <textarea class="textarea" placeholder="Textarea"></textarea>
-                    </div>
-                  </div>
-                  
-                  <div class="field is-grouped">
-                    <div class="control">
-                      <button class="button is-link" type="submit" style="background:#bea233">Submit</button>
+                      <label class="label">Name</label>
+                      <div class="control">
+                        <input class="input" type="text" placeholder="First Name" name="first name">
+                      </div>
                     </div>
 
-                  </div>
-                  </form>
+                    <div class="field">
+                      <div class="control">
+                        <input class="input" type="text" placeholder="Last Name" name="last name">
+                      </div>
+                    </div>
+
+                    <div class="field">
+                      <label class="label">Phone</label>
+                      <div class="control">
+                        <input class="input" type="email" name="phone number">
+                      </div>
+                    </div>
+                    
+                    <div class="field">
+                      <label class="label">Email</label>
+                      <div class="control">
+                        <input class="input" type="email" name="email">
+                      </div>
+                    </div>
+                  
+                    
+                    <div class="field">
+                      <label class="label">Message</label>
+                      <div class="control">
+                        <textarea class="textarea" name="message"></textarea>
+                      </div>
+                    </div>
+                    
+                    <div class="field is-grouped">
+                      <div class="control">
+                        <button class="button is-link" type="submit" style="background:#bea233">Submit</button>
+                      </div>
+  
+                    </div>
+                    </form>
             </div>
         </div>
     </div>

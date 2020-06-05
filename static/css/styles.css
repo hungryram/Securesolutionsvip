@@ -25,6 +25,35 @@ input.input {
     border-radius: 0;
 }
 
+/* PAGINATION */
+
+/* PAGINATION */
+
+.pagination li a {
+    transition: all .3s ease;
+    color: #BEA233;
+}
+
+.pagination li:hover a {
+    background: #DCE0E0;
+    transition: all .3s ease;
+}
+
+ul.pagination {
+    justify-content: center;
+}
+
+li.page-item {
+    padding: 2px;
+    font-size: 14px;
+}
+
+.pagination-next,
+.pagination-previous {
+    background: white;
+    border-color: #fff!important;
+}
+
 /* HERO */
 
 div.hero-body h1.title {

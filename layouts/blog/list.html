@@ -15,7 +15,8 @@
         <div class="columns">
             
             <div class="column is-8">
-                {{ range .Pages }}
+                {{ $paginator := .Paginate (where .Pages "Type" "blog") 4 }}
+                {{ range $paginator.Pages }}
                 <div class="content blog-content-list">
                     <img src="{{ .Params.featured_image }}" alt="">
                     <h1>{{.Title}}</h1>
@@ -28,6 +29,7 @@
                     </div>
                 </div>
                 {{ end }}
+                {{ partial "pagination" . }}
             </div>
             <div class="column">
                 {{ partial "sidebar.html" . }}
