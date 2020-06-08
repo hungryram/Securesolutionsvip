@@ -9,7 +9,7 @@ info_icons:
     icon_one_text: ELIMINATE MORTGAGE PAYMENTS
   icon_info_two:
     icon_two_select: fas fa-dollar-sign
-    icon_two_text: THREE CASH LUMP SUM OR LINE OF CREDIT
+    icon_two_text: ONE CASH LUMP SUM OR LINE OF CREDIT
   icon_three:
     icon_three_select: fas fa-credit-card
     icon_three_text: PAY OFF CREDIT CARDS & MEDICAL BILLS
@@ -53,7 +53,7 @@ intro_section:
   introduction_body: Welcome to American Apple Mortgage, We are home loan experts
     dedicated to making sure your home purchase or refinance experience is top-notch.
   intro_points:
-  - MEET WITH A LICENSED SPECIALIST IN YOUR HOME!
+  - MEET WITH A LICENSED SPECIALIST
   - RECEIVE A FREE PROPOSAL WITH NO OBLIGATIONS!
   - CALL OR INQUIRE NOW TO DISCOVER THE TRUTH!
 logo:
