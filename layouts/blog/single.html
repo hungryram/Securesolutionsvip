@@ -7,9 +7,9 @@
             <div class="column is-8">
                 
                 <div class="content">
-                    <img src="{{ .Params.featured_image }}" alt="">
+                    <img src="{{ .Params.featured_image }}" alt="{{ .Title }}">
                     <h1>{{.Title}}</h1>
-                    {{ .Summary}}
+                    {{ .Content }}
                 </div>
             </div>
             <div class="column">
