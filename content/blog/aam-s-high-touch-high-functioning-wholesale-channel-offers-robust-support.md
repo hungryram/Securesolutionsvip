@@ -9,8 +9,6 @@ meta_title = "AAM’s high-touch, high-functioning wholesale channel offers robu
 +++
 American Apple Mortgage (AAM), whose combination of vision, energy and execution have made it the nation’s No. 1 reverse mortgage lender, is now utilizing that same vigor to rapidly grow its wholesale/correspondent division. All the critical components are in place to support this growth in recognition of the company’s holistic “AAM & You, Better Together” philosophy.
 
-“We continue to accelerate our investments into every aspect of our infrastructure so that our partners, in turn, are able to deliver that same best-in-class support and service to their clients,” said Kimberly Smith, senior vice president of wholesale/correspondent lending.
-
 **TOP EXECUTIVE TALENT**
 
 Bolstering an already deep executive team, AAM has brought on board Joe Stephenson as senior vice president of operations.
