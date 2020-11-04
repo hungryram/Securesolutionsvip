@@ -1,0 +1,46 @@
+{{ $seo := .Site.Data.profile.search_engine_optimization }}
+{{ $profile := .Site.Data.profile.primary_account.primary_company_name }}
+{{ $logo := .Site.Data.design.logo.logo }}
+
+{{ $bodyDesc := .Params.body | truncate 170 }}
+<!-- OPEN GRAPH -->
+<meta property="og:url" content="{{ .Permalink }}" />
+
+{{- if $.IsHome -}}
+    <meta property="og:image" content="{{ $logo | absURL }}"/>
+    <meta property="og:title" content="For Homeowners 62 and Older - American Apple Mortgage"/>
+    <meta property="og:description" content="American Apple Mortgage are home loan experts dedicated to making sure your home purchase or refinance experience is top-notch."/>
+    <meta property="og:type" content="website" />
+{{ else }}
+<meta property="og:image" content="{{ $logo }}">
+    {{- with .Params.meta_title | default .Params.search_engine_optimization.meta_title -}}
+        <meta property="og:title" content="{{ . }}"/>
+    {{ else }}
+        <meta property="og:title" content="{{ .Params.Title }} - {{ $profile }}"/>
+    {{- end }}
+    {{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description }}
+        <meta property="og:description" content="{{ . }}" />
+    {{ else }}
+        <meta property="og:description" content="{{ .Summary | truncate 170 }}" />
+    {{- end }}
+        <meta property="og:type" content="{{ if in .Permalink "blog" }}article{{ else }}website{{ end }}"/>
+{{- end -}}
+<!-- END OPEN GRAPH -->
+
+<!-- BEGIN SEO -->
+{{- if $.IsHome -}}
+    <title>For Homeowners 62 and Older - American Apple Mortgage</title>
+    <meta name="description" content="American Apple Mortgage are home loan experts dedicated to making sure your home purchase or refinance experience is top-notch.">
+{{ else }}
+    {{ with .Params.meta_title | default .Params.search_engine_optimization.meta_title }}
+    <title>{{ . }}</title>
+    {{ else }}
+    <title>{{ .Params.Title }} - {{ $profile }}</title>
+    {{ end }}
+
+    {{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description | default $bodyDesc  }}
+    <meta name="description" content="{{ . }}">
+    {{ else }}
+    <meta name="description" content="{{ .Summary | truncate 170 }}">
+    {{ end }}
+{{- end -}}

@@ -5,17 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ if $.IsHome }}
+    <script type="application/ld+json">
+        {
+          "@context" : "http://schema.org",
+          "@type" : "LocalBusiness",
+          "name" : "American Apple Mortgage",
+          "description" : "American Apple Mortgage are home loan experts dedicated to making sure your home purchase or refinance experience is top-notch.",
+          "logo" : "https://www.americanapplemortgage.net/uploads/newlogo2.png",
+          "telephone" : "(213) 380-5626",
+          "address" : {
+            "@type" : "PostalAddress",
+            "streetAddress" : "3660 Wilshire Blvd, Suite 518",
+            "addressLocality" : "Los Angeles",
+            "addressRegion" : "California",
+            "postalCode" : "90010"
+          },
+          "url" : "{{ .Site.BaseURL }}"
+        }
+        </script>
+    {{ end }}
 
     <link rel="stylesheet" href="{{.Site.BaseURL}}css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    {{ with .Params.meta_title }}
-    <title>{{ . }}</title>
-    {{ end }}
-
-    {{ with .Params.meta_description }}
-    <meta name="description" content="{{ . }}">
-    {{ end }}
+    {{ partial "seo" . }}
   <meta name="google-site-verification" content="YiESwbjWVv8E7Hhsrxmed3-YZE-DkVmcyix44Pedgqo" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169933051-1"></script>

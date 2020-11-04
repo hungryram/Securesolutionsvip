@@ -11,8 +11,8 @@
                     {{ $profileaddress := .Site.Data.profile.address }}
                     <ul>
                         <li><i class="fas fa-map-marker-alt"></i>{{ $profileaddress.street_address }} {{ $profileaddress.primary_city }}, {{ $profileaddress.primary_state }} {{ $profileaddress.primary_zip_code }}</li>
-                        <li><i class="fas fa-mobile-alt"></i>{{  $profilecontact.primary_phone_number }}</li>
-                        <li><i class="far fa-envelope"></i>{{  $profilecontact.primary_email }}</li>
+                        <li><i class="fas fa-mobile-alt"></i><a href="tel:{{  $profilecontact.primary_phone_number }}" class="has-text-black">{{  $profilecontact.primary_phone_number }}</a></li>
+                        <li><i class="far fa-envelope"></i><a href="mailto:{{  $profilecontact.primary_email }}" class="has-text-black">{{  $profilecontact.primary_email }}</a></li>
                     </ul>
                 </div>
             </div>
@@ -22,27 +22,27 @@
                     <div class="field">
                         <label class="label">Name</label>
                         <div class="control">
-                          <input class="input" type="text" placeholder="First Name" name="first name">
+                          <input class="input" type="text" placeholder="First Name" name="first name" required>
                         </div>
                       </div>
 
                       <div class="field">
                         <div class="control">
-                          <input class="input" type="text" placeholder="Last Name" name="last name">
+                          <input class="input" type="text" placeholder="Last Name" name="last name" required>
                         </div>
                       </div>
 
                       <div class="field">
                         <label class="label">Phone</label>
                         <div class="control">
-                          <input class="input" type="email" name="phone number">
+                          <input class="input" type="email" name="phone number" required>
                         </div>
                       </div>
                       
                       <div class="field">
                         <label class="label">Email</label>
                         <div class="control">
-                          <input class="input" type="email" name="email">
+                          <input class="input" type="email" name="email" required>
                         </div>
                       </div>
                     
@@ -50,7 +50,7 @@
                       <div class="field">
                         <label class="label">Message</label>
                         <div class="control">
-                          <textarea class="textarea" name="message"></textarea>
+                          <textarea class="textarea" name="message" required></textarea>
                         </div>
                       </div>
                       

@@ -1,6 +1,15 @@
 {{ partial "head.html" . }}
 {{ partial "navbar.html" . }}
-<div style="{{ with .Site.Data.design.sub_page_image }}background:url({{ . }}) no-repeat center;background-size:cover;height:30vh;{{ end }}">
+<div style="{{ with .Site.Data.design.sub_page_image }}background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url({{ . }}) no-repeat center;background-size:cover;padding-top:40px;padding-bottom:40px;{{ end }}">
+    <div class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <h1 class="title is-2 has-text-white is-size-4-mobile" style="display:flex;align-items:center;justify-content:center">{{ .Title }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <main>
     {{ block "main" . }}

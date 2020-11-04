@@ -1,6 +1,6 @@
 +++
-meta_description = "about meta"
-meta_title = "about"
+meta_description = "AMERICAN APPLE MORTGAGE has been a popular wholesale mortgage company for 27 years. Next to your accountant, our goal is to be (from a business perspective) your best friend. Home Ownership is the center piece of family life."
+meta_title = "About American Apple Mortgage"
 page_title = "The About Page"
 title = "About"
 [search_engine_optimization]
